@@ -18,6 +18,11 @@ This largely uses the ```heapq module```
 Documenation can be referenced from: [here](https://docs.python.org/3/library/heapq.html#).
 <br />
 
+```
+Note: heapq module would implement a min heap by default!
+Easy Solution whilst retaining the same functions would be to multiply the elements of the heap by -1 !
+```
+
 **Heapify Operation**
 <br />
 Time Complexity: O(N)
